@@ -1,6 +1,6 @@
 file_format: "1"
-id: sofle
-name: sofle
+id: sof
+name: sof
 type: shield
 url: https://github.com/DLBPointon
 requires: [pro_micro]
@@ -11,5 +11,5 @@ features:
   - encoder
   - underglow
 siblings:
-  - sofle_left
-  - sofle_right
+  - sof_left
+  - sof_right
