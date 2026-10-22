@@ -1,5 +1,7 @@
 manifest:
   remotes:
+    - name: zzuse
+      url-base: https://github.com/zzuse
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -9,5 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-nice-oled-zz
+      remote: zzuse
+      revision: main
   self:
     path: config
