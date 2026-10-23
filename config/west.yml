@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zzuse
-      url-base: https://github.com/zzuse
+    - name: DLBPointon
+      url-base: https://github.com/DLBPointon
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-nice-oled-zz
-      remote: zzuse
+    - name: zmk-nice-oled-dp
+      remote: DLBPointon
       revision: main
   self:
     path: config
